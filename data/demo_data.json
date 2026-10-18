@@ -1,0 +1,461 @@
+{
+  "_meta": {
+    "title": "Jeu de données de démonstration NextStep Maroc",
+    "disclaimer": "DONNÉES DE DÉMONSTRATION. Ce fichier n'est pas un catalogue officiel exhaustif. Les URL officielles des établissements listés ont été contrôlées par recherche web le 2026-10-18 et doivent être re-vérifiées avant publication. Aucune condition d'admission, date de concours, statistique ni frais de scolarité n'a été inventé pour un établissement réel : ces champs restent vides et sont affichés comme « Information à vérifier ». Seul l'établissement fictif explicitement marqué « démonstration » porte des valeurs d'exemple.",
+    "language": "fr",
+    "generated_on": "2026-10-18",
+    "sources_checked_on": "2026-10-18",
+    "is_demo": true
+  },
+
+  "schools": [
+    {
+      "ref": "encg-casa",
+      "name": "École Nationale de Commerce et de Gestion de Casablanca",
+      "short_name": "ENCG Casablanca",
+      "city": "Casablanca",
+      "school_type": "Grande école publique",
+      "domain": "Commerce et gestion",
+      "description": "Établissement public d'enseignement supérieur supérieur, composante du réseau des Écoles Nationales de Commerce et de Gestion (ENCG) au Maroc.",
+      "official_url": "https://encgcasa.ma",
+      "verification_status": "official_verified",
+      "last_verified_at": "2026-10-18"
+    },
+    {
+      "ref": "encg-settat",
+      "name": "École Nationale de Commerce et de Gestion de Settat",
+      "short_name": "ENCG Settat",
+      "city": "Settat",
+      "school_type": "Grande école publique",
+      "domain": "Commerce et gestion",
+      "description": "Établissement public, composante du réseau des ENCG au Maroc.",
+      "official_url": "https://www.encgs.ac.ma",
+      "verification_status": "official_verified",
+      "last_verified_at": "2026-10-18"
+    },
+    {
+      "ref": "encg-kenitra",
+      "name": "École Nationale de Commerce et de Gestion de Kénitra",
+      "short_name": "ENCG Kénitra",
+      "city": "Kénitra",
+      "school_type": "Grande école publique",
+      "domain": "Commerce et gestion",
+      "description": "Établissement public rattaché à l'Université Ibn Tofail, composante du réseau des ENCG. Les spécialités indiquées proviennent de son site officiel.",
+      "official_url": "https://encg.uit.ac.ma",
+      "verification_status": "official_verified",
+      "last_verified_at": "2026-10-18"
+    },
+    {
+      "ref": "encg-eljadida",
+      "name": "École Nationale de Commerce et de Gestion d'El Jadida",
+      "short_name": "ENCG El Jadida",
+      "city": "El Jadida",
+      "school_type": "Grande école publique",
+      "domain": "Commerce et gestion",
+      "description": "Établissement public créé en 2006, rattaché à l'Université Chouaib Doukkali, composante du réseau des ENCG.",
+      "official_url": "https://www.encg.ucd.ac.ma",
+      "verification_status": "official_verified",
+      "last_verified_at": "2026-10-18"
+    },
+    {
+      "ref": "encg-agadir",
+      "name": "École Nationale de Commerce et de Gestion d'Agadir",
+      "short_name": "ENCG Agadir",
+      "city": "Agadir",
+      "school_type": "Grande école publique",
+      "domain": "Commerce et gestion",
+      "description": "Établissement public de l'Université Ibn Zohr, créé en 1994, composante du réseau des ENCG du Royaume.",
+      "official_url": "https://encga.uiz.ac.ma",
+      "verification_status": "official_verified",
+      "last_verified_at": "2026-10-18"
+    },
+    {
+      "ref": "encg-tanger",
+      "name": "École Nationale de Commerce et de Gestion de Tanger",
+      "short_name": "ENCG Tanger",
+      "city": "Tanger",
+      "school_type": "Grande école publique",
+      "domain": "Commerce et gestion",
+      "description": "Établissement public d'enseignement supérieur rattaché à l'Université Abdelmalek Essaâdi, composante du réseau des ENCG.",
+      "official_url": "https://encgt.uae.ac.ma",
+      "verification_status": "official_verified",
+      "last_verified_at": "2026-10-18"
+    },
+    {
+      "ref": "encg-marrakech",
+      "name": "École Nationale de Commerce et de Gestion de Marrakech",
+      "short_name": "ENCG Marrakech",
+      "city": "Marrakech",
+      "school_type": "Grande école publique",
+      "domain": "Commerce et gestion",
+      "description": "Établissement public, composante du réseau des ENCG au Maroc.",
+      "official_url": "https://www.uca.ma/encg/fr",
+      "verification_status": "official_verified",
+      "last_verified_at": "2026-10-18"
+    },
+    {
+      "ref": "encg-oujda",
+      "name": "École Nationale de Commerce et de Gestion d'Oujda",
+      "short_name": "ENCG Oujda",
+      "city": "Oujda",
+      "school_type": "Grande école publique",
+      "domain": "Commerce et gestion",
+      "description": "Établissement public, composante du réseau des ENCG au Maroc. Site officiel à confirmer.",
+      "official_url": null,
+      "verification_status": "pending_verification",
+      "last_verified_at": null
+    },
+    {
+      "ref": "encg-meknes",
+      "name": "École Nationale de Commerce et de Gestion de Meknès",
+      "short_name": "ENCG Meknès",
+      "city": "Meknès",
+      "school_type": "Grande école publique",
+      "domain": "Commerce et gestion",
+      "description": "Établissement public, composante du réseau des ENCG au Maroc. Site officiel à confirmer.",
+      "official_url": null,
+      "verification_status": "pending_verification",
+      "last_verified_at": null
+    },
+    {
+      "ref": "groupe-iscae",
+      "name": "Groupe ISCAE",
+      "short_name": "ISCAE",
+      "city": "Casablanca",
+      "school_type": "Grande école publique",
+      "domain": "Commerce, comptabilité et audit",
+      "description": "École de commerce publique fondée en 1971, présente sur les campus d'ISCAE-Casablanca et ISCAE-Rabat. Le détail exact des cycles et diplômes est publié sur son site officiel.",
+      "official_url": "https://groupeiscae.ma",
+      "verification_status": "official_verified",
+      "last_verified_at": "2026-10-18"
+    },
+    {
+      "ref": "ensias",
+      "name": "École Nationale Supérieure d'Informatique et d'Analyse des Systèmes",
+      "short_name": "ENSIAS",
+      "city": "Rabat",
+      "school_type": "Grande école d'ingénieurs",
+      "domain": "Informatique et systèmes d'information",
+      "description": "Grande école d'ingénieurs de l'Université Mohammed V - Souissi à Rabat, spécialisée en informatique et en analyse des systèmes.",
+      "official_url": "https://ensias.um5.ac.ma",
+      "verification_status": "official_verified",
+      "last_verified_at": "2026-10-18"
+    },
+    {
+      "ref": "demo-school",
+      "name": "École de démonstration NextStep (fictive)",
+      "short_name": "Démo NextStep",
+      "city": "Casablanca",
+      "school_type": "Établissement fictif",
+      "domain": "Commerce et gestion",
+      "description": "Établissement TOTALEMENT FICTIF servant uniquement à démontrer les fiches, les critères d'admission et les échéances dans l'interface. Il ne correspond à aucune école réelle : ne pas utiliser comme source.",
+      "official_url": null,
+      "verification_status": "demo",
+      "last_verified_at": null
+    }
+  ],
+
+  "programs": [
+    {"ref": "p-casa-ingenieur", "school_ref": "encg-casa", "name": "Diplôme d'Ingénieur d'État en Commerce et Gestion", "degree_level": "Ingénieur d'État", "domain": "Commerce et gestion", "duration_years": null, "teaching_language": null, "description": "Cycle pluridisciplinaire de l'ENCG Casablanca. Durée, frais et modalités exacts : Information à vérifier sur le site officiel.", "tuition_fees_mad": null, "official_url": null, "verification_status": "pending_verification"},
+    {"ref": "p-settat-ingenieur", "school_ref": "encg-settat", "name": "Diplôme d'Ingénieur d'État en Commerce et Gestion", "degree_level": "Ingénieur d'État", "domain": "Commerce et gestion", "duration_years": null, "teaching_language": null, "description": "Cycle de l'ENCG Settat. Détails d'accès et frais : Information à vérifier.", "tuition_fees_mad": null, "official_url": null, "verification_status": "pending_verification"},
+    {"ref": "p-kenitra-ingenieur", "school_ref": "encg-kenitra", "name": "Diplôme d'Ingénieur d'État en Commerce et Gestion", "degree_level": "Ingénieur d'État", "domain": "Commerce et gestion", "duration_years": null, "teaching_language": null, "description": "Cycle de l'ENCG Kénitra. Détails : Information à vérifier sur le site officiel.", "tuition_fees_mad": null, "official_url": null, "verification_status": "pending_verification"},
+    {"ref": "p-kenitra-finance", "school_ref": "encg-kenitra", "name": "Master — Finance", "degree_level": "Master", "domain": "Finance et comptabilité", "duration_years": null, "teaching_language": null, "description": "Spécialité référencée dans le menu « Formations » du site officiel de l'ENCG Kénitra. Conditions d'accès : Information à vérifier.", "tuition_fees_mad": null, "official_url": null, "verification_status": "pending_verification"},
+    {"ref": "p-kenitra-audit", "school_ref": "encg-kenitra", "name": "Master — Audit et Contrôle de Gestion", "degree_level": "Master", "domain": "Audit et contrôle de gestion", "duration_years": null, "teaching_language": null, "description": "Spécialité référencée sur le site officiel de l'ENCG Kénitra. Conditions d'accès : Information à vérifier.", "tuition_fees_mad": null, "official_url": null, "verification_status": "pending_verification"},
+    {"ref": "p-kenitra-commerce-intl", "school_ref": "encg-kenitra", "name": "Master — Commerce International", "degree_level": "Master", "domain": "Commerce international", "duration_years": null, "teaching_language": null, "description": "Spécialité référencée sur le site officiel de l'ENCG Kénitra. Conditions d'accès : Information à vérifier.", "tuition_fees_mad": null, "official_url": null, "verification_status": "pending_verification"},
+    {"ref": "p-eljadida-ingenieur", "school_ref": "encg-eljadida", "name": "Diplôme d'Ingénieur d'État en Commerce et Gestion", "degree_level": "Ingénieur d'État", "domain": "Commerce et gestion", "duration_years": null, "teaching_language": null, "description": "Cycle de l'ENCG El Jadida. Détails : Information à vérifier.", "tuition_fees_mad": null, "official_url": null, "verification_status": "pending_verification"},
+    {"ref": "p-agadir-ingenieur", "school_ref": "encg-agadir", "name": "Diplôme d'Ingénieur d'État en Commerce et Gestion", "degree_level": "Ingénieur d'État", "domain": "Commerce et gestion", "duration_years": null, "teaching_language": null, "description": "Cycle de l'ENCG Agadir (marketing, commerce international, comptabilité, audit, contrôle de gestion selon son site officiel). Détails : Information à vérifier.", "tuition_fees_mad": null, "official_url": null, "verification_status": "pending_verification"},
+    {"ref": "p-tanger-ingenieur", "school_ref": "encg-tanger", "name": "Diplôme d'Ingénieur d'État en Commerce et Gestion", "degree_level": "Ingénieur d'État", "domain": "Commerce et gestion", "duration_years": null, "teaching_language": null, "description": "Cycle de l'ENCG Tanger. Détails : Information à vérifier.", "tuition_fees_mad": null, "official_url": null, "verification_status": "pending_verification"},
+    {"ref": "p-marrakech-ingenieur", "school_ref": "encg-marrakech", "name": "Diplôme d'Ingénieur d'État en Commerce et Gestion", "degree_level": "Ingénieur d'État", "domain": "Commerce et gestion", "duration_years": null, "teaching_language": null, "description": "Cycle de l'ENCG Marrakech. Détails : Information à vérifier.", "tuition_fees_mad": null, "official_url": null, "verification_status": "pending_verification"},
+    {"ref": "p-oujda-ingenieur", "school_ref": "encg-oujda", "name": "Diplôme d'Ingénieur d'État en Commerce et Gestion", "degree_level": "Ingénieur d'État", "domain": "Commerce et gestion", "duration_years": null, "teaching_language": null, "description": "Cycle de l'ENCG Oujda. Toutes les informations détaillées sont à vérifier.", "tuition_fees_mad": null, "official_url": null, "verification_status": "unknown"},
+    {"ref": "p-meknes-ingenieur", "school_ref": "encg-meknes", "name": "Diplôme d'Ingénieur d'État en Commerce et Gestion", "degree_level": "Ingénieur d'État", "domain": "Commerce et gestion", "duration_years": null, "teaching_language": null, "description": "Cycle de l'ENCG Meknès. Toutes les informations détaillées sont à vérifier.", "tuition_fees_mad": null, "official_url": null, "verification_status": "unknown"},
+    {"ref": "p-iscae-cycle", "school_ref": "groupe-iscae", "name": "Cycles supérieurs en gestion — Groupe ISCAE", "degree_level": null, "domain": "Commerce, comptabilité et audit", "duration_years": null, "teaching_language": null, "description": "Le Groupe ISCAE forme aux métiers de la gestion, de la comptabilité et de l'audit (dont titres reconnus et partenariats). Noms exacts des diplômes, niveaux, frais et accès : Information à vérifier sur le site officiel.", "tuition_fees_mad": null, "official_url": null, "verification_status": "pending_verification"},
+    {"ref": "p-ensias-cycle", "school_ref": "ensias", "name": "Cycle d'Ingénieur d'État en Informatique et Systèmes", "degree_level": "Ingénieur d'État", "domain": "Informatique et systèmes d'information", "duration_years": null, "teaching_language": null, "description": "Formation d'ingénieurs d'État en informatique et systèmes d'information à l'ENSIAS (Rabat). Modalités de concours et frais : Information à vérifier sur le site officiel.", "tuition_fees_mad": null, "official_url": null, "verification_status": "pending_verification"},
+    {"ref": "p-demo-bachelor", "school_ref": "demo-school", "name": "Bachelor en Gestion — DÉMONSTRATION (fictif)", "degree_level": "Licence", "domain": "Commerce et gestion", "duration_years": 3, "teaching_language": "fr", "description": "Formation FICTIVE utilisée pour montrer l'affichage complet d'une fiche (durée, frais, critères). Ne correspond à aucune formation réelle.", "tuition_fees_mad": 15000, "tuition_note": "[Démonstration] Montant fictif, établissement fictif.", "official_url": null, "verification_status": "demo"},
+    {"ref": "p-demo-master", "school_ref": "demo-school", "name": "Master Marketing — DÉMONSTRATION (fictif)", "degree_level": "Master", "domain": "Marketing", "duration_years": 2, "teaching_language": "fr", "description": "Formation FICTIVE sans frais renseignés, pour montrer l'affichage « Information à vérifier ».", "tuition_fees_mad": null, "official_url": null, "verification_status": "demo"}
+  ],
+
+  "admission_rules": [
+    {
+      "ref": "rule-demo-bachelor",
+      "program_ref": "p-demo-bachelor",
+      "label": "[Démonstration] Critères d'accès fictifs",
+      "source_name": "Jeu de démonstration NextStep Maroc (aucune source réelle)",
+      "source_url": null,
+      "verification_status": "demo",
+      "notes": "Ces critères n'existent pour aucun établissement réel. Ils servent uniquement à démontrer le contrôle de compatibilité du profil.",
+      "criteria": [
+        {
+          "criterion_type": "bac_series",
+          "value": ["Économie et Gestion", "Sciences Économiques", "Mathématiques"],
+          "operator": "in",
+          "is_required": true,
+          "description": "[Démonstration] Séries fictivement admissibles.",
+          "verification_status": "demo"
+        },
+        {
+          "criterion_type": "min_average",
+          "value": 12,
+          "operator": "gte",
+          "is_required": true,
+          "description": "[Démonstration] Moyenne minimale fictive sur 20.",
+          "verification_status": "demo"
+        }
+      ]
+    }
+  ],
+
+  "deadlines": [
+    {
+      "ref": "dl-demo-1",
+      "school_ref": "demo-school",
+      "program_ref": "p-demo-bachelor",
+      "title": "[Démonstration] Échéance fictive — établissement fictif (ne pas utiliser)",
+      "deadline_type": "candidature",
+      "event_date": "2027-01-15",
+      "source_name": "Jeu de démonstration NextStep Maroc",
+      "source_url": null,
+      "verification_status": "demo"
+    },
+    {
+      "ref": "dl-demo-2",
+      "school_ref": "demo-school",
+      "program_ref": null,
+      "title": "[Démonstration] Date de concours non communiquée",
+      "deadline_type": "concours",
+      "event_date": null,
+      "source_name": null,
+      "source_url": null,
+      "verification_status": "unknown"
+    }
+  ],
+
+  "quizzes": [
+    {
+      "ref": "q-math",
+      "title": "QCM démo — Mathématiques et logique",
+      "subject": "Mathématiques",
+      "description": "Questions originales rédigées pour la démonstration de la plateforme.",
+      "language": "fr",
+      "difficulty": "moyen",
+      "provenance": "Question originale rédigée pour NextStep Maroc (démonstration) — pas un sujet officiel de concours.",
+      "validation_status": "demo",
+      "questions": [
+        {
+          "statement": "Quel pourcentage représente 36 dans 240 ?",
+          "options": ["12 %", "15 %", "18 %", "25 %"],
+          "correct_index": 1,
+          "explanation": "36 ÷ 240 = 0,15, soit 15 %.",
+          "difficulty": "facile"
+        },
+        {
+          "statement": "Une marchandise achetée 800 MAD est revendue 1 000 MAD. Quel est le taux de marge sur le prix d'achat ?",
+          "options": ["20 %", "25 %", "30 %", "33 %"],
+          "correct_index": 1,
+          "explanation": "Marge = 1 000 − 800 = 200 MAD. Taux sur prix d'achat = 200 ÷ 800 = 25 %.",
+          "difficulty": "facile"
+        },
+        {
+          "statement": "Quelle suite est cohérente : 2, 6, 12, 20, 30, ... ?",
+          "options": ["40 puis 52", "42 puis 56", "36 puis 44", "44 puis 60"],
+          "correct_index": 1,
+          "explanation": "Les écarts valent 4, 6, 8, 10 puis 12 et 14 : 30 + 12 = 42, puis 42 + 14 = 56.",
+          "difficulty": "moyen"
+        },
+        {
+          "statement": "Quelle est la médiane de la série 3, 7, 9, 15, 42 ?",
+          "options": ["7", "9", "12", "15"],
+          "correct_index": 1,
+          "explanation": "La série est déjà triée et comporte 5 valeurs : la médiane est la 3e, soit 9.",
+          "difficulty": "moyen"
+        }
+      ]
+    },
+    {
+      "ref": "q-eco",
+      "title": "QCM démo — Économie et gestion",
+      "subject": "Économie et gestion",
+      "description": "Questions originales rédigées pour la démonstration de la plateforme.",
+      "language": "fr",
+      "difficulty": "moyen",
+      "provenance": "Question originale rédigée pour NextStep Maroc (démonstration) — pas un sujet officiel de concours.",
+      "validation_status": "demo",
+      "questions": [
+        {
+          "statement": "Que mesure le Produit Intérieur Brut (PIB) ?",
+          "options": [
+            "La valeur de tous les biens et services produits à l'intérieur du pays sur une période",
+            "La somme des bénéfices des seules entreprises",
+            "La valeur des exportations uniquement",
+            "Le niveau général des prix"
+          ],
+          "correct_index": 0,
+          "explanation": "Le PIB agrège la valeur ajoutée produite sur le territoire ; le niveau général des prix est mesuré par l'inflation (ex. IPC).",
+          "difficulty": "facile"
+        },
+        {
+          "statement": "Le résultat net d'une entreprise s'obtient par :",
+          "options": [
+            "Chiffre d'affaires − charges d'exploitation",
+            "Produits − charges",
+            "Trésorerie − dettes financières",
+            "Capitaux propres − dettes"
+          ],
+          "correct_index": 1,
+          "explanation": "Le résultat net est la différence entre l'ensemble des produits et l'ensemble des charges après impôt.",
+          "difficulty": "moyen"
+        },
+        {
+          "statement": "Le ratio d'endettement (gearing) rapporte :",
+          "options": [
+            "Les dettes financières aux capitaux propres",
+            "Les actifs circulants aux dettes à court terme",
+            "La marge nette au chiffre d'affaires",
+            "Le délai client au délai fournisseur"
+          ],
+          "correct_index": 0,
+          "explanation": "L'endettement mesure la part du financement assurée par la dette par rapport aux ressources propres. Le 2e choix décrit la liquidité générale.",
+          "difficulty": "moyen"
+        },
+        {
+          "statement": "Le marketing mix traditionnel repose sur :",
+          "options": [
+            "Les 4P : produit, prix, distribution, promotion",
+            "Les 3R : recherche, revenu, rétention",
+            "Les 5E : expérience, échange, événement, éthique, économie",
+            "Les 4C uniquement : client, coût, commodité, communication"
+          ],
+          "correct_index": 0,
+          "explanation": "McCarthy a formalisé les 4P ; les 4C sont un complément centré client, non un substitut.",
+          "difficulty": "facile"
+        }
+      ]
+    },
+    {
+      "ref": "q-culture",
+      "title": "QCM démo — Culture générale et compréhension",
+      "subject": "Culture générale",
+      "description": "Questions originales rédigées pour la démonstration de la plateforme.",
+      "language": "fr",
+      "difficulty": "facile",
+      "provenance": "Question originale rédigée pour NextStep Maroc (démonstration) — pas un sujet officiel de concours.",
+      "validation_status": "demo",
+      "questions": [
+        {
+          "statement": "Quelle est la capitale administrative du Maroc ?",
+          "options": ["Casablanca", "Rabat", "Marrakech", "Fès"],
+          "correct_index": 1,
+          "explanation": "Rabat est la capitale administrative ; Casablanca est la métropole économique.",
+          "difficulty": "facile"
+        },
+        {
+          "statement": "Quel document réunit l'actif, le passif et les capitaux propres à une date donnée ?",
+          "options": ["Le compte de résultat", "Le bilan", "Le tableau des flux de trésorerie", "L'annexe"],
+          "correct_index": 1,
+          "explanation": "Le bilan est un état de situation à une date ; le compte de résultat retrace, lui, les produits et charges sur une période.",
+          "difficulty": "facile"
+        },
+        {
+          "statement": "Quelle institution publie les principales statistiques nationales (inflation, PIB) au Maroc ?",
+          "options": ["Le Haut-Commissariat au Plan (HCP)", "Bank Al-Maghrib", "Le Ministère du Commerce", "L'ANSEJ"],
+          "correct_index": 0,
+          "explanation": "Le HCP produit les statistiques nationales ; Bank Al-Maghrib conduit la politique monétaire.",
+          "difficulty": "moyen"
+        },
+        {
+          "statement": "Une start-up qui lève des fonds auprès de business angels :",
+          "options": [
+            "Dilue sa participation (ses capitaux propres)",
+            "Contracte obligatoirement une dette remboursable",
+            "Ne change rien à son capital",
+            "Vend uniquement de la marchandise"
+          ],
+          "correct_index": 0,
+          "explanation": "Un investisseur entre au capital en échange de titres : la participation des associés existants est diluée.",
+          "difficulty": "facile"
+        }
+      ]
+    },
+    {
+      "ref": "q-english",
+      "title": "Demo Quiz — Business English",
+      "subject": "Anglais",
+      "description": "Original questions written to demonstrate multilingual quizzes.",
+      "language": "en",
+      "difficulty": "moyen",
+      "provenance": "Original question written for NextStep Maroc (demo) — not an official entrance exam.",
+      "validation_status": "demo",
+      "questions": [
+        {
+          "statement": "Choose the correct sentence.",
+          "options": [
+            "We are looking forward to hearing from you.",
+            "We are looking forward to hear from you.",
+            "We looking forward to hear from you.",
+            "We are look forward to hearing from you."
+          ],
+          "correct_index": 0,
+          "explanation": "“Look forward to” is followed by a gerund: looking forward to hearing.",
+          "difficulty": "moyen"
+        },
+        {
+          "statement": "What does “market share” mean?",
+          "options": [
+            "The portion of total sales in a market held by a company",
+            "A certificate issued on the stock market",
+            "The price of one share",
+            "A stall in a street market"
+          ],
+          "correct_index": 0,
+          "explanation": "Market share = a company's share of total sales in a given market.",
+          "difficulty": "facile"
+        },
+        {
+          "statement": "The simple past of “grow” is:",
+          "options": ["growed", "grew", "growth", "grown"],
+          "correct_index": 1,
+          "explanation": "The simple past is “grew”; “grown” is the past participle used with have/has (has grown).",
+          "difficulty": "facile"
+        }
+      ]
+    }
+  ],
+
+  "resources": [
+    {
+      "ref": "res-fiche-etats-financiers",
+      "title": "Fiche : les trois états financiers en bref",
+      "description": "Bilan, compte de résultat et flux de trésorerie : à quoi chacun sert et comment ils se relient.",
+      "category": "fiche_de_revision",
+      "language": "fr",
+      "author_name": "Rédaction originale NextStep Maroc (démonstration)",
+      "source_url": null,
+      "status": "published",
+      "is_demo": true,
+      "content": "LE BILAN : photo à une date. Il liste les ressources (actif) et leur origine (passif-capitaux propres). Équilibre obligatoire : Actif = Passif.\n\nLE COMPTE DE RÉSULTAT : film sur une période. Produits − Charges = Résultat. On y lit la marge, l'EBITDA et le résultat net.\n\nLES FLUX DE TRÉSORERIE : classe les encaissements et décaissements en trois activités — exploitation, investissement, financement.\n\nLIEN ENTRE LES TROIS : le résultat net alimente les capitaux propres (via le report à nouveau), et la variation de trésorerie du bilan se retrouve dans le tableau des flux.\n\nÀ RETENIR : le bilan dit ce qu'on a, le compte de résultat dit ce qu'on gagne, les flux disent ce qu'on touche.\n\n(Démonstration — contenu original rédigé pour la plateforme, aucun extract d'un support externe.)"
+    },
+    {
+      "ref": "res-fiche-pourcentages",
+      "title": "Fiche : pourcentages, marges et ratios à connaître",
+      "description": "Les calculs de pourcentage les plus fréquents en concours de gestion.",
+      "category": "fiche_de_revision",
+      "language": "fr",
+      "author_name": "Rédaction originale NextStep Maroc (démonstration)",
+      "source_url": null,
+      "status": "published",
+      "is_demo": true,
+      "content": "1) PART D'UN ENSEMBLE : part = valeur / total × 100.\n\n2) VARIATION EN % : (nouvelle valeur − ancienne valeur) / ancienne valeur × 100. Attention : utiliser l'ancienne valeur comme base.\n\n3) MARGE SUR PRIX D'ACHAT : marge = PV − PA ; taux = marge / PA × 100.\n\n4) MARGE SUR PRIX DE VENTE : marge / PV × 100 (utile quand seul le prix de vente est connu).\n\n5) RATIO : toujours préciser le numérateur et le dénominateur (endettement = dettes / capitaux propres ; liquidité générale = actif circulant / dettes à court terme).\n\nMÉTHODE : écrire la formule avant de calculer, arrondir à la fin, vérifier l'ordre de grandeur.\n\n(Démonstration — contenu original rédigé pour la plateforme.)"
+    },
+    {
+      "ref": "res-communaute-mix",
+      "title": "Résumé de cours : le mix marketing (proposition communautaire)",
+      "description": "Proposition soumise par un utilisateur de démonstration : rappel des 4P et des 4C. En attente de modération, ne doit pas être publié automatiquement.",
+      "category": "cours",
+      "language": "fr",
+      "author_name": "Utilisateur de démonstration",
+      "source_url": null,
+      "status": "pending",
+      "is_demo": true,
+      "content": "Les 4P : Produit (gamme, qualité, marque), Prix (liste, remise, crédit), Distribution (canaux, couverture), Promotion (communication, force de vente, publicité). Les 4C complètent : Client, Coût total, Commodité, Communication. À vérifier par un modérateur avant publication."
+    }
+  ]
+}

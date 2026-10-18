@@ -1,0 +1,23 @@
+# Configuration Streamlit — NextStep Maroc
+[theme]
+base = "light"
+primaryColor = "#1D4ED8"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F1F5F9"
+textColor = "#0F172A"
+font = "sans serif"
+
+[server]
+headless = true
+enableCORS = true
+enableXsrfProtection = true
+maxUploadSize = 5 # Mo — limite stricte pour les éventuels téléversements
+# L'état initial de la barre latérale est défini dans app.py
+# (st.set_page_config(initial_sidebar_state="expanded")).
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = "none" # n'expose pas les traces techniques aux visiteurs

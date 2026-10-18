@@ -1,0 +1,373 @@
+/* ============================================================
+   NextStep Maroc — feuille de style principale
+   Palette : bleu foncé (navy), bleu, accents verts.
+   Règles : classes métier ns-*, aucune dépendance aux classes
+   internes de Streamlit au-delà des variables CSS publiques.
+   ============================================================ */
+
+:root {
+  --ns-navy: #0b2447;
+  --ns-navy-2: #143a6b;
+  --ns-blue: #1d4ed8;
+  --ns-blue-soft: #eaf1ff;
+  --ns-green: #0e9f6e;
+  --ns-green-soft: #e7f7f0;
+  --ns-amber: #b45309;
+  --ns-amber-soft: #fef3e2;
+  --ns-red: #b91c1c;
+  --ns-red-soft: #fdecec;
+  --ns-ink: #0f172a;
+  --ns-muted: #64748b;
+  --ns-line: #e2e8f0;
+  --ns-bg: #f8fafc;
+}
+
+html, body, [class*="css"], .stApp {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, "Noto Sans Arabic", sans-serif;
+}
+
+/* ---------- Structure ---------- */
+.ns-page {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 0.25rem 2rem;
+}
+
+.ns-section {
+  margin: 2.25rem 0;
+}
+
+.ns-kicker {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ns-green);
+  background: var(--ns-green-soft);
+  border-radius: 999px;
+  padding: 0.25rem 0.8rem;
+  margin-bottom: 0.6rem;
+}
+
+.ns-title {
+  font-size: 2.1rem;
+  line-height: 1.2;
+  font-weight: 800;
+  color: var(--ns-navy);
+  margin: 0 0 0.5rem;
+}
+
+.ns-title-sm {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--ns-navy);
+  margin: 0 0 0.35rem;
+}
+
+.ns-subtitle {
+  font-size: 1.02rem;
+  color: var(--ns-muted);
+  margin: 0;
+  line-height: 1.65;
+}
+
+.ns-lead {
+  color: #cbd5e1;
+  font-size: 1.02rem;
+  line-height: 1.7;
+  margin: 0.75rem 0 1.4rem;
+}
+
+.ns-rule {
+  height: 4px;
+  width: 64px;
+  background: linear-gradient(90deg, var(--ns-green), var(--ns-blue));
+  border-radius: 999px;
+  margin: 0.75rem 0 1.25rem;
+  border: 0;
+}
+
+/* ---------- Héros ---------- */
+.ns-hero {
+  background: linear-gradient(135deg, var(--ns-navy) 0%, var(--ns-navy-2) 55%, #17457f 100%);
+  color: #fff;
+  border-radius: 22px;
+  padding: 2.75rem 2.5rem;
+  margin: 1.5rem 0 2rem;
+  box-shadow: 0 18px 40px rgba(11, 36, 71, 0.22);
+}
+
+.ns-hero h1 {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin: 0 0 0.4rem;
+  line-height: 1.15;
+}
+
+.ns-hero .ns-flag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #a7f3d0;
+  margin-bottom: 0.9rem;
+}
+
+.ns-brand {
+  font-weight: 800;
+  color: var(--ns-navy);
+  letter-spacing: -0.01em;
+}
+
+.ns-brand-accent {
+  color: var(--ns-green);
+}
+
+/* ---------- Cartes ---------- */
+.ns-card {
+  background: #ffffff;
+  border: 1px solid var(--ns-line);
+  border-radius: 16px;
+  padding: 1.35rem 1.4rem;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
+  height: 100%;
+}
+
+.ns-card-tight {
+  padding: 1rem 1.1rem;
+}
+
+.ns-card-dark {
+  background: var(--ns-navy);
+  color: #e2e8f0;
+  border: 0;
+}
+
+.ns-card-dark .ns-title-sm {
+  color: #fff;
+}
+
+.ns-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.ns-card h4 {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+  color: var(--ns-navy);
+  font-weight: 700;
+}
+
+.ns-card p {
+  color: var(--ns-muted);
+  font-size: 0.94rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.ns-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--ns-blue-soft);
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.ns-icon-green {
+  background: var(--ns-green-soft);
+}
+
+/* ---------- Étapes ---------- */
+.ns-step {
+  border-left: 3px solid var(--ns-blue);
+  padding: 0.15rem 0 0.15rem 1rem;
+  margin-bottom: 1.1rem;
+}
+
+.ns-step .ns-step-num {
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--ns-green);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.ns-step h4 {
+  margin: 0.15rem 0 0.25rem;
+  color: var(--ns-navy);
+  font-size: 1.02rem;
+}
+
+.ns-step p {
+  margin: 0;
+  color: var(--ns-muted);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+/* RTL : barre de progression à droite */
+[dir="rtl"] .ns-step {
+  border-left: 0;
+  border-right: 3px solid var(--ns-blue);
+  padding: 0.15rem 1rem 0.15rem 0;
+}
+
+/* ---------- Statistiques ---------- */
+.ns-stat {
+  text-align: center;
+  background: #fff;
+  border: 1px solid var(--ns-line);
+  border-radius: 16px;
+  padding: 1.1rem 0.75rem;
+}
+
+.ns-stat .ns-stat-value {
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: var(--ns-navy);
+  line-height: 1.1;
+}
+
+.ns-stat .ns-stat-label {
+  font-size: 0.83rem;
+  color: var(--ns-muted);
+  margin-top: 0.3rem;
+  display: block;
+}
+
+/* ---------- Badges / statuts ---------- */
+.ns-badge {
+  display: inline-block;
+  font-size: 0.76rem;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 0.18rem 0.7rem;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+.ns-badge-ok    { background: var(--ns-green-soft); color: #047857; border-color: #a7f3d0; }
+.ns-badge-wait  { background: var(--ns-amber-soft); color: var(--ns-amber); border-color: #fde68a; }
+.ns-badge-unk   { background: #f1f5f9; color: #475569; border-color: var(--ns-line); }
+.ns-badge-com   { background: var(--ns-blue-soft); color: var(--ns-blue); border-color: #bfdbfe; }
+.ns-badge-demo  { background: #f5f3ff; color: #6d28d9; border-color: #ddd6fe; }
+.ns-badge-ko    { background: var(--ns-red-soft); color: var(--ns-red); border-color: #fecaca; }
+
+.ns-notice {
+  border-radius: 12px;
+  padding: 0.85rem 1.05rem;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  border: 1px solid var(--ns-line);
+  background: var(--ns-bg);
+  color: var(--ns-ink);
+  margin: 0.75rem 0;
+}
+
+.ns-notice-info  { background: var(--ns-blue-soft); border-color: #bfdbfe; }
+.ns-notice-warn  { background: var(--ns-amber-soft); border-color: #fde68a; }
+.ns-notice-demo  { background: #f5f3ff; border-color: #ddd6fe; color: #5b21b6; }
+
+/* ---------- Boutons ---------- */
+.ns-btn {
+  display: inline-block;
+  background: var(--ns-green);
+  color: #fff !important;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 0.62rem 1.25rem;
+  text-decoration: none;
+  border: 0;
+}
+
+a.ns-link {
+  color: var(--ns-blue);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a.ns-link:hover { text-decoration: underline; }
+
+/* ---------- Tableaux ---------- */
+.ns-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--ns-line);
+  border-radius: 12px;
+}
+
+/* ---------- Pied de page ---------- */
+.ns-footer {
+  background: var(--ns-navy);
+  color: #cbd5e1;
+  border-radius: 18px;
+  padding: 1.75rem 2rem;
+  margin-top: 2.5rem;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.ns-footer strong { color: #fff; }
+.ns-footer a { color: #93c5fd; }
+
+.ns-footer-cols {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1.25rem;
+}
+
+/* ---------- Divers ---------- */
+.ns-muted { color: var(--ns-muted); }
+.ns-small { font-size: 0.86rem; }
+.ns-mono { font-family: Consolas, "Courier New", monospace; }
+
+.ns-divider {
+  border: 0;
+  border-top: 1px solid var(--ns-line);
+  margin: 1.5rem 0;
+}
+
+.ns-progress-track {
+  background: var(--ns-line);
+  border-radius: 999px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.ns-progress-fill {
+  background: linear-gradient(90deg, var(--ns-green), var(--ns-blue));
+  height: 8px;
+  border-radius: 999px;
+}
+
+.ns-option {
+  background: #fff;
+  border: 1px solid var(--ns-line);
+  border-radius: 12px;
+  padding: 0.7rem 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Accessibilité : focus visible */
+a:focus-visible, button:focus-visible {
+  outline: 3px solid var(--ns-green);
+  outline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+  .ns-hero { padding: 1.75rem 1.25rem; border-radius: 16px; }
+  .ns-hero h1 { font-size: 1.75rem; }
+  .ns-title { font-size: 1.6rem; }
+  .ns-footer { padding: 1.25rem 1.1rem; }
+  .ns-card { padding: 1rem 0.95rem; }
+}

@@ -1,0 +1,9 @@
+# NextStep Maroc — dépendances testées ensemble (Python 3.11.9)
+streamlit==1.66.0
+SQLAlchemy==2.1.5
+pydantic==2.14.1
+pandas==3.0.6
+plotly==7.1.0
+pytest==9.1.1
+python-dotenv==1.2.4
+bcrypt==5.0.0

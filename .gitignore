@@ -1,0 +1,20 @@
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.log
+
+# Données locales (ne jamais versionner la base)
+data/*.db
+data/*.db-*
+data/*.sqlite
+
+# Secrets Streamlit
+.streamlit/secrets.toml
+
+# Divers
+.DS_Store
+.idea/
+.vscode/
