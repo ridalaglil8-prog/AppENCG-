@@ -244,11 +244,15 @@ T: dict[str, dict[str, str]] = {
     # ---------------------------------------------------------- Orientation
     "ori_title": {"fr": "Test d'orientation", "ar": "اختبار التوجيه", "en": "Orientation test"},
     "ori_intro": {
-        "fr": "Huit questions pour faire ressortir les parcours qui te correspondent. Aucune réponse n'est bonne ou mauvaise : le résultat est une piste de réflexion, jamais une promesse d'admission.",
-        "ar": "ثمانية أسئلة لإبراز المسارات المناسبة لك. لا توجد إجابة صحيحة أو خاطئة: النتيجة محاولة تفكير وليست وعداً بالقبول.",
-        "en": "Eight questions to surface the paths that fit you. There is no right or wrong answer: results are a lead for reflection, never an admission promise.",
+        "fr": "{count} questions pour faire ressortir les parcours qui te correspondent. Aucune réponse n'est bonne ou mauvaise : le résultat est une piste de réflexion, jamais une promesse d'admission.",
+        "ar": "{count} أسئلة لإبراز المسارات المناسبة لك. لا توجد إجابة صحيحة أو خاطئة: النتيجة محاولة تفكير وليست وعداً بالقبول.",
+        "en": "{count} questions to surface the paths that fit you. There is no right or wrong answer: results are a lead for reflection, never an admission promise.",
     },
-    "ori_progress": {"fr": "Question {current} / {total}", "ar": "السؤال {current} / {total}", "en": "Question {current} / {total}"},
+    "ori_progress": {
+        "fr": "Étape {current} / {total}",
+        "ar": "الخطوة {current} / {total}",
+        "en": "Step {current} / {total}",
+    },
     "ori_select_all": {"fr": "Sélectionne toutes les réponses qui s'appliquent.", "ar": "اختر كل الإجابات المناسبة.", "en": "Select all answers that apply."},
     "ori_select_one": {"fr": "Choisis une réponse.", "ar": "اختر إجابة واحدة.", "en": "Choose one answer."},
     "ori_results_title": {"fr": "Tes pistes de parcours", "ar": "مساراتك المقترحة", "en": "Your suggested paths"},

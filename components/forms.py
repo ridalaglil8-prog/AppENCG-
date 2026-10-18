@@ -23,7 +23,7 @@ from utils.exceptions import (
     PermissionDenied,
     RateLimitedError,
 )
-from utils.translations import tr
+from utils.translations import LANGUAGES as LANGUAGE_LABELS, tr
 from utils.validators import KNOWN_BAC_SERIES, LANGUAGES
 
 # Catalogues partagés avec le questionnaire d'orientation (clés stables).
@@ -94,7 +94,7 @@ def registration_form(lang: str) -> bool:
             tr("label_language", lang),
             options=list(LANGUAGES),
             index=list(LANGUAGES).index(lang) if lang in LANGUAGES else 0,
-            format_func=lambda code: LANGUAGES[code],
+            format_func=lambda code: LANGUAGE_LABELS.get(code, code),
             key="reg_language",
         )
         notice("info", tr("auth_privacy_note", lang))

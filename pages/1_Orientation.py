@@ -286,7 +286,7 @@ def _compute_and_save() -> None:
 heading(
     lang,
     tr("ori_title", lang),
-    subtitle=tr("ori_intro", lang),
+    subtitle=tr("ori_intro", lang, count=len(ori.QUESTIONNAIRE)),
     kicker=tr("home_kicker", lang),
 )
 _run_questionnaire()
